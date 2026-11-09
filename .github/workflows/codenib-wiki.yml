@@ -19,7 +19,7 @@ jobs:
       - uses: actions/checkout@v6
         with:
           fetch-depth: 0
-      - uses: sysevol-ai/wiki-action@eadfd220879db7fb0292cf90e54d1048f396cd0d
+      - uses: sysevol-ai/wiki-action@v1
         id: wiki
         with:
           api-key: ${{ secrets.OPENROUTER_API_KEY }}
